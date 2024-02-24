@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            TO_DO LIST
+        </title>
+        <link rel="stylesheet" type="text/css" href="todo.css">
+        <style>
+            {
+       box-sizing: border-box;
+            }
+  
+       body {
+       font-family: Arial, sans-serif;
+       font-size: 16px;
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;
+        }
+  
+        h1 {
+    background-color: #7f35e1;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  
+  #add-task-form {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #new-task-input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:nth-child(even) {
+    background-color: #3e8e41;
+  }
+  
+  button {
+    background-color: #8335c8ed;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+        </style>
+    </head>
+    <body background="background6.jpeg">
+        <h1><p><center><b>What's for today?</b></center></p></h1>       
+        <form><br>
+            <br>
+            <center><b>Let's check down the tasks that has to be done today:</b></center><br>
+            <center><label for="fname">Shopping</label>
+            <input type="checkbox" id="fname" name="fname"></center><br>
+            <center><label for="fname">Lunch</label>
+            <input type="checkbox" id="fname" name="fname"></center><br>
+            <center><label for="fname">Assignment</label>
+            <input type="checkbox" id="fname" name="fname"></center><br>
+            <center><label for="fname">Meet a friend</label>
+            <input type="checkbox" id="fname" name="fname"></center><br>
+            <center>-->Add tasks you wish to accomplish today!</center>
+            <center><input type="text" id="fname" name="fname"></center><br>
+            <center><input type="submit"></center>
+            
+        </form>
+    </body>
+</html>
