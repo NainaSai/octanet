@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Landing Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+  body{
+    background-image: url('background.jpeg');
+  }
+</style>
+</head>
+<body bgcolor="beige">
+<header>
+  <h1><center>ONLINE MARKETING</center></h1>
+</header>
+<marquee>GET TRAINED ON HOW IT WORKS!</marquee>
+<main>
+  <section id="Lets get into it">
+    <h2>HOW BUSINESS EVOLVED IN 2024</h2>
+        <p>Focusing majorly on below points:<br>
+            <ul>
+              <li>Work Integration</li><br>
+              <li>E-commerce Growth</li><br>
+              <li>Sustainability and ESG</li><br>
+              <li>Resilience and Risk Management</li><br> 
+              <li>Digital Transformation Acceleration</li><br>
+            </ul>
+        </p>
+
+  </section>
+  <section id="Click down to know more">
+    <h2><button>About Us</button></h2>
+  </section>
+  <section id="contact">
+    <h2><button>Contact us</button></h2>
+    <p>For more details.</p>
+  </section>
+</main>
+<footer>
+  <p>Copyright &copy; 2024 Landing Page</p>
+</footer>
+</body>
+</html>
